@@ -7,13 +7,17 @@ import { MaterialsModule } from './shared/modules/materials/materials.module';
 import { TopComponent } from './shared/layout/top/top.component';
 import { MiddleComponent } from './shared/layout/middle/middle.component';
 import { BottomComponent } from './shared/layout/bottom/bottom.component';
+import { LoginComponent } from './modules/components/login/login.component';
+import { RegisterComponent } from './modules/components/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopComponent,
     MiddleComponent,
-    BottomComponent
+    BottomComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
