@@ -9,6 +9,7 @@ import { MiddleComponent } from './shared/layout/middle/middle.component';
 import { BottomComponent } from './shared/layout/bottom/bottom.component';
 import { LoginComponent } from './modules/components/login/login.component';
 import { RegisterComponent } from './modules/components/register/register.component';
+import { HomeComponent } from './shared/components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RegisterComponent } from './modules/components/register/register.compon
     MiddleComponent,
     BottomComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
