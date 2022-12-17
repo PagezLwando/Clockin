@@ -1,24 +1,27 @@
 <div>
-    <form>
-        <div>
+    <form (ngSubmit)="onSubmit()">
+        <mat-form-field>
             <label>Name:</label>
-            <input type="text">
-        </div>
-        <div>
+            <input type="text" id="name" formControlName="name">
+        </mat-form-field>
+        <mat-form-field>
             <label>Email:</label>
-            <input type="email">
-        </div>
-        <div>
+            <input type="email" id="email" formControlName="email">
+        </mat-form-field>
+        <mat-form-field>
             <label>Cell Number:</label>
-            <input type="number">
-        </div>
-        <div>
+            <input type="number" id="cellNumber" formControlName="cellNumber">
+        </mat-form-field>
+        <mat-form-field>
             <label>Password:</label>
-            <input type="password">
-        </div>
-        <div>
+            <input type="password" id="name" formControlName="password">
+        </mat-form-field>
+        <mat-form-field>
             <label>Confirm Password:</label>
-            <input type="password">
+            <input type="password" id="name" formControlName="cpassword">
+        </mat-form-field>
+        <div>
+            <button>Submit</button>
         </div>
     </form>
 </div>
