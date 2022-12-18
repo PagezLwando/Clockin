@@ -10,6 +10,7 @@ import { BottomComponent } from './shared/layout/bottom/bottom.component';
 import { LoginComponent } from './modules/components/login/login.component';
 import { RegisterComponent } from './modules/components/register/register.component';
 import { HomeComponent } from './shared/components/home/home.component';
+import { GenericDialogComponent } from './shared/components/generic-dialog/generic-dialog.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './shared/components/home/home.component';
     BottomComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    GenericDialogComponent
   ],
   imports: [
     BrowserModule,

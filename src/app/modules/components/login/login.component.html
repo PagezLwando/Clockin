@@ -1,1 +1,18 @@
-<p>login works!</p>
+<div class="grid-container">
+  <mat-card>
+    <mat-card-title>Log in</mat-card-title>
+    <form (ngSubmit)="onSubmit()">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Email:</mat-label>
+        <input type="email" placeholder="Email:" formControlName="name"/>
+      </mat-form-field><br>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Password:</mat-label>
+        <input type="password" placeholder="Password:" formControlName="password"/>
+      </mat-form-field>
+      <div>
+        <button mat-raised-button color="primary">Submit</button>
+      </div>
+    </form>
+  </mat-card>
+</div>
